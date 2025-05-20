@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .fact-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .fact {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage!</h1>
+    <p>I wrote this in HTML.</p>
+    <a> href="https://code-you.org/">I'm a student at Code: You"</a>
+    <div class="fact-container">
+        <h1>My Favorite Things</h1>
+        <ul>
+            <li>class="fact"><strong>Favorite Movie:</strong> Deadpool</li>
+            <li>class="fact"><strong>Favorite Travel Destination:</strong> Nashville</li>
+            <li>class="fact"><strong>I am a Nutrition & Trauma Coach.</strong></li>
+            <img src="https://code-you.org/wp-content/uploads/2023/07/codeyou-logo-wink.gif" alt="Code: You Logo:>
+        </ul>
+    </div>
+</body>
+</html>
+
